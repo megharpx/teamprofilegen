@@ -1,0 +1,26 @@
+{
+    "name": "CoolEmployees",
+    "version": "1.0.0",
+    "description": "oop",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest --verbose test/*"
+    },
+    "repository": {
+        "type": "",
+        "url": "git-https://github.com/megharpx/teamprofilegen.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/megharp/teamprofilegen",
+    "dependencies": {
+        "inquirer": "9.1.0"
+    },
+    "devDependencies": {
+        "jest": "^28.1.3"
+    }
+}
