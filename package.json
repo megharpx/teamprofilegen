@@ -1,21 +1,21 @@
 {
-    "name": "CoolEmployees",
+    "name": "teamprofilegen",
     "version": "1.0.0",
-    "description": "oop",
+    "description": "Unit 10 homework",
     "main": "index.js",
     "directories": {
         "lib": "lib",
         "test": "test"
     },
     "scripts": {
-        "test": "jest --verbose test/*"
+        "test": "jest"
     },
     "repository": {
-        "type": "",
-        "url": "git-https://github.com/megharpx/teamprofilegen.git"
+        "type": "git",
+        "url": "git+https://github.com/megharpx/teamprofilegen.git"
     },
     "author": "",
-    "license": "ISC",
+    "license": "",
     "homepage": "https://github.com/megharp/teamprofilegen",
     "dependencies": {
         "inquirer": "9.1.0"
