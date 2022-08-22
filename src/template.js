@@ -72,7 +72,7 @@ module.exports = function (passedObjectArray) {
     ` 
 
     new Promise((resolve, reject) => {
-        fs.writeFile('./dist/index.html', page, err => {
+        fs.writeFile('./output/team.html', page, err => {
             if (err) {
                 reject(err);
                 return;
