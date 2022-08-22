@@ -6,13 +6,13 @@ test("Can create an new employee.", () => {
 })
 
 test("Testing name.", () => {
-    const name = "Meghan";
+    const name = "M";
     const employeeInstance = new Employee(name);
     expect(employeeInstance.name).toBe(name);
 })
 
 test("Testing ID.", () => {
-    const id = 1;
+    const id = "" ;
     const employeeInstance = new Employee("Meghan", id);
     expect(employeeInstance.id).toBe(id);
 })
@@ -39,12 +39,12 @@ test("Can test ID through getID method.", () => {
 
 test("Can test email through getEmail method.", () => {
     const testEmail = "mmeghaneharper@gmail.com";
-    const employeeInstance = new Employee("Meghan", 1, testEmail);
+    const employeeInstance = new Employee("Meghan", 2, testEmail);
     expect(employeeInstance.getEmail()).toBe(testEmail);
 })
 
 test("Testing role.", () => {
     const returnValue = "Employee";
-    const employeeInstance = new Employee("Meghan", 1, "mmeghaneharper@gmail.com");
+    const employeeInstance = new Employee("Meghan", 2, "mmeghaneharper@gmail.com");
     expect(employeeInstance.getRole()).toBe(returnValue);
 })
